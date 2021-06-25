@@ -247,6 +247,13 @@ class GAClient:
                     'pageToken': pageToken,
                     'metrics': report_definition['metrics'],
                     'dimensions': report_definition['dimensions'],
+                    'dimensionFilterClauses': [
+                        {'filters': [
+                            {'dimensionName': 'ga:dimension17',
+                             'operator': 'IN_LIST',
+                             'expressions': ["Facebook", "Amazon.com"],
+                             "not": 'true'
+                             }]}],
                 }]
             },
             quotaUser=self.quota_user
