@@ -1,0 +1,7 @@
+{
+  "key_file_location": "../meltano-ads/client_secrets.json",
+  "view_id": "103676291",
+  "reports": "tap_google_analytics/defaults/default_report_definition.json",
+  "start_date": "2021-08-01T00:00:00Z"
+}
+
